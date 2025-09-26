@@ -9,3 +9,4 @@ spec:
     app: mylb
   ports:
     - port: 80 
+      target port: 80

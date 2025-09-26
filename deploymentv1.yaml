@@ -3,7 +3,7 @@ kind: Deployment
 metadata: 
   name: mylb
   labels: 
-    app: myapp
+    app: mylb
     env: dev
   namespace: devnamespace
   annotations:
