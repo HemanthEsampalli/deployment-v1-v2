@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: svc-yellowapp
+spec:
+  type: LoadBalancer
+  selector:
+    app: mylb
+  ports:
+    - port: 80 
