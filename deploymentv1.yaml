@@ -45,9 +45,9 @@ spec:
                 - echo hi
           resources:
             requests:
-              cpu: 500m
-              memory: 1500Mi
+              cpu: 50m
+              memory: 64Mi
             limits:
-              cpu: 1800m
-              memory: 7500Mi
+              cpu: 200m
+              memory: 256Mi
            
