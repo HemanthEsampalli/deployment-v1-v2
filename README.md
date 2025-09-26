@@ -20,7 +20,7 @@ step-5 Download the Kubectl Binary File
        Make the Kubectl Binary File Executable : sudo chmod +x kubectl
        Move the Kubectl Binary File to the Bin Directory: sudo mv kubectl /usr/local/bin
        Confirm Kubectl Installation: kubectl version --client
-       
+
 step-6 install eksctl
        # for ARM systems, set ARCH to: `arm64`, `armv6` or `armv7`
        ARCH=amd64
@@ -79,3 +79,5 @@ step-24  kubectl rollout history deploy mylb - Likely meant kubectl rollout hist
 step-25  aws eks list-clusters --region us-east-2 - lists all clusters
 
 step-26  eksctl delete cluster --name my-cluster-2 --region us-east-2 - delete the particular cluster
+
+step-27 terminate the created ec2 vm
