@@ -34,7 +34,7 @@ spec:
               protocol: TCP
           startupProbe: 
             httpGet:
-              path: "/"
+              path: /
               port: 80
           livenessProbe:
             tcpSocket:
